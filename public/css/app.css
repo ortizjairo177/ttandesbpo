@@ -1,0 +1,447 @@
+
+
+body {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    /*ancho  de la pagina*/
+    
+    background-image: radial-gradient(circle at 25.66% -2.21%,
+                      #c2ffff 0, #bcf7ff 25%, #b5def2 50%,
+                      #acc6d4 75%, #a2afb8 100%);  
+    
+    } 
+
+
+    .img-logo {
+
+        width: 140px;
+        padding-left: 5%;
+        padding-bottom: 6%;
+        height: 80px;
+    }
+
+
+        
+/*  .backnav{
+    color: #fff;
+}  */
+
+nav ul li:hover  {
+
+        background-color: rgb(71, 179, 116);
+        height: 40px;
+     
+
+    }
+
+nav ul li a {
+
+        text-decoration: none;
+        color: #fff;
+        }
+
+a:visited {
+
+            color: #141414;
+               }
+
+a:active {
+
+            color: #e27f0e;
+        }
+
+.secc-login{
+            max-width: 500px;
+            vertical-align: top;
+            margin: 0 auto;
+           
+        }
+   
+.art-contactus{
+            max-width: 500px;
+            vertical-align: top;
+            margin: 0 auto;
+           
+        }
+
+.sect-cont{
+        background-color: rgb(203, 221, 162);
+
+    }
+
+.sect-prod{
+        background-color: rgb(180, 93, 119);
+        padding-top: 1em;
+        padding-bottom:1em; 
+
+    }
+     
+.sec-misprod {   
+
+    background-color: burlywood;
+    padding-top: 15px; 
+
+    padding-top: 2rem;
+    width: 900px;
+    margin: 0 auto;     
+
+}
+
+.contenedor {
+
+    max-width: 900px; 
+    margin: 0 auto; /* margen automatico para todos los lados*/
+}
+
+.fp-video{
+    width: 50%;
+   /* padding: 2em;  cada em son 14 px como hay 2em son 28Px*/
+   padding: 28px;
+      }
+
+.ft-art{
+    width: 40%;
+    padding: 2em;
+    vertical-align: top;
+    }
+
+ 
+article {
+     padding: 30px;
+     background-color: rgba(134, 240, 148, 0.54);
+ }
+article h1{
+    border-bottom: solid thin black;
+}
+
+.fp-video , .ft-art {
+    display: inline-block;
+}
+
+.artfigure img{
+ max-width: 100%; 
+ margin: 0;
+
+}
+
+.art-cont {
+  width: 740px;
+  vertical-align: top;
+}
+
+h2{
+  margin: 0;
+  border-bottom: solid thin black;
+  text-align: center;
+
+}
+
+.boton-container {
+    text-align: center;
+     margin: 0 auto;  /*alinea el texto en contenedor centro*/    
+
+}
+.boton-container a{
+    text-decoration: none;
+    color: rgb(69, 8, 182);
+}
+
+.boton {
+  padding: 5px;
+  
+   
+}
+.boton-container:hover{
+    background-color: #1fbea4;       
+    margin: 15px 90px 0px 90px;
+}
+
+ footer{
+
+    background-color: rgb(134, 171, 240);
+    color: white;
+    clear: both;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+ }
+
+ /* estilos de listados de products */
+
+ .boton-containmisp {
+
+    text-align:center;
+    margin-left: auto;
+    padding: 5px; 
+    background-color: rgb(171, 173, 39);
+    width: 955px; 
+    border-radius: 60px;      
+
+}
+
+.boton-containmisp:hover a{
+     
+   margin: 0 auto;
+   color:#fff; 
+   padding: 8px;
+  
+      
+} 
+
+.secmisproductos {                
+   
+   padding-top: 1rem;
+   width: 900px;
+   margin: 0 auto;
+    
+
+}
+/* Estilos para la pag de misproductos*/
+
+.tabla_colums {
+ 
+   width: 1200px;
+   margin: 2em auto;
+   padding: 2em;
+   background-color: sandybrown;
+   
+}
+
+.bord-sup{
+    margin-top: 2em;
+}
+
+.seccion-prod{
+    max-width: 840px;
+    vertical-align: top;
+    margin: 0 auto;
+   
+}
+
+/* con flex dce prueba  no funciona pàra ajustar imgs
+.containertab {
+
+    margin: auto;
+   display: flex;
+ 
+   flex-wrap: nowrap;
+   justify-content: space-between;    
+   
+}
+*/
+.item {
+
+   background: #00b285;
+   width: 23.5%;
+   height: 100px;
+   color: #fff;
+   margin-bottom: 2%;
+   margin: 10px auto;
+   padding: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.subitemm {
+
+   background: #360652;    
+   color: #fff;  
+   font-size: 20px;
+   text-align: center;    
+   
+}
+
+
+/* la imagen no se ajusta automatica en el respo*/
+.img-misproduc {
+  
+   max-width: 40%; 
+   margin: 0;      
+
+}
+
+/* estilos home */
+/* .carous{
+  width: 4320px;
+
+} */
+
+
+.carousel .carousel-item {
+    max-width:100% !important;
+        
+}
+
+/* quitar las lineas subrayadas */
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+/* prueba de formulario por grupos */
+
+.fondo_formulario{
+    max-width: 800px;
+    width: 90%;
+    margin:  auto;
+    padding: 40px;
+   
+}
+
+.formulario{
+display: grid;
+grid-template-columns:1fr 1fr; /*me coloca el formulario en 2 columnas */
+gap: 20px;
+
+}
+
+.formulario_label{
+  display: block;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.formulario_grupo-input{
+    position: relative;
+}
+
+.formulario_input{
+    width: 100%;
+    background:#fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all; 
+
+}
+
+.formulario_input:focus{
+    border:  3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgb(163, 163, 163, 0.4);
+ 
+}
+
+.formulario_input-error{
+    font-size: 15px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario_input-error-activo{
+    display:block;
+}
+
+.formulario_validacion-estado{
+    position:absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16Px;
+    opacity: 0; /* el mensaje se oculte */
+}
+
+.formulario_checkbox{
+    margin-right: 10px;
+}
+
+/* terminos y condiciones ocupa toda la fila */
+.formulario_grupo-terminos,
+.formulario_mensaje,
+.formulario_grupo-btn-enviar{
+    grid-column:  span 2;
+
+}
+
+.formulario_mensaje{
+    height: 45px;
+    line-height:45px;
+    background: #f66868;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none; /* el mensaje se oculta */
+}
+
+.formulario_mensaje-activo{
+    display: block;  
+
+}
+
+.formulario_grupo-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario_btn{
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+
+}
+
+.formulario_btn:hover{
+    box-shadow: 3px 0px 30px rgb(56, 11, 11);
+}
+
+.formulario_mensaje-exito{
+    font-size: 15px;
+    color:#fff;
+    background-color: rgb(83, 82, 82);
+    height: 30px;        
+    display: none; 
+}
+
+
+/*  video 38:51 */
+/* estilos para validacion */
+
+.formulario_grupo-correcto .formulario_validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_label{
+    color: #bb2929;
+   
+}
+.formulario_grupo-incorrecto .formulario_validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario_grupo-incorrecto .formulario_input{
+    border: 3px solid #bb2929;
+   
+}
+
+/* Para los dispositivos */
+
+@media screen and (max-width:800px){
+    .formulario {
+        grid-template-columns: 1fr;
+
+    }
+
+    
+/* terminos y condiciones quitar las dos columnas */
+.formulario_grupo-terminos,
+.formulario_mensaje,
+.formulario_grupo-btn-enviar{
+    grid-column: 1;
+
+}
+  
+}
